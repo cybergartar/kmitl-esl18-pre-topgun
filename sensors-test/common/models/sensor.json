@@ -1,0 +1,26 @@
+{
+  "name": "sensor",
+  "plural": "/sensors",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
