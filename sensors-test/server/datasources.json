@@ -1,1 +1,12 @@
-{}
+{
+  "sensors-test": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "sensors",
+    "password": "",
+    "name": "sensors-test",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

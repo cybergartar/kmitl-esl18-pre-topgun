@@ -13,12 +13,8 @@
       "./mixins"
     ]
   },
-  "sensors": {
-    "dataSource": null,
-    "public": true
-  },
   "sensor": {
-    "dataSource": null,
+    "dataSource": "sensors-test",
     "public": true
   }
 }
