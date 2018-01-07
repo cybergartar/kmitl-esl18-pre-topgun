@@ -22,8 +22,8 @@ module.exports = function(Sensor) {
     }
   )
 
-  Sensor.place = function(pl_name, callback) {
-    Sensor.find({where: {"tag": pl_name}}, function(err, models) {
+  Sensor.place = function(place, callback) {
+    Sensor.find({where: {"tag": place}}, function(err, models) {
       callback(null, models);
     });
   }
@@ -35,12 +35,12 @@ module.exports = function(Sensor) {
         verb: 'post'
       },
       accepts: {
-        arg: 'pl_name',
+        arg: 'place',
         type: 'string'
       },
       returns: {
         root: true,
-        type: 'array'
+        type: 'string'
       }
     }
   )
