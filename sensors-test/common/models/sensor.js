@@ -39,7 +39,7 @@ module.exports = function(Sensor) {
         type: 'string'
       },
       returns: {
-        arg: 'entry',
+        root: true,
         type: 'array'
       }
     }

@@ -15,7 +15,8 @@ module.exports = function(Alert) {
       },
       returns: {
         arg: 'status',
-        type: 'string'
+        type: 'string',
+        root: true
       }
     }
   )
