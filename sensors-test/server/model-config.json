@@ -16,5 +16,9 @@
   "sensor": {
     "dataSource": "sensors-test",
     "public": true
+  },
+  "alert": {
+    "dataSource": "sensors-test",
+    "public": true
   }
 }
